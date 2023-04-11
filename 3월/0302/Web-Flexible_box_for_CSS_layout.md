@@ -90,6 +90,9 @@
  }
  ```
  - 주 축을 따라 flex item과 주위에 공간을 분배
+ - space-between : 아이템들의 "사이(between)"에 균일한 간격을 만들어줌
+ - space-around : 아이템들의 "둘레(around)"에 균일한 간격을 만들어줌
+ - space-evenly : 아이템들의 사이와 양 끝에 균일한 간격을 만들어줌 (IE와 Edge에서는 지원되지 않음)
 
 
 ### 5. align-content
@@ -114,6 +117,15 @@
  }
  ```
  - 교차 축을 따라 flex item 행을 정렬
+ - stretch (기본값) : 아이템들이 수직축 방향으로 끝까지 늘어남
+ - baseline : 아이템들을 텍스트 베이스 라인 기준으로 정렬
+
+```css
+justify-content: center;
+align-item: center;
+
+/* 을 해주면, 아이템을 한 가운데 놓을 수 있음 */
+```
 
 ### 7. align-self
 
@@ -155,7 +167,7 @@
  }
 
  ```
- - flex item의 초기 크기 값을 지정
+ - flex item의 초기 크기 값을 지정 (auto가 기본값!)
  - flex-basis와 width 값을 동시에 적용한 경우 flex-basis가 우선!
 
 
