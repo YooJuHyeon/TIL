@@ -68,3 +68,6 @@
 # JavaScript
 
 # Django
+- [Framework](https://github.com/YooJuHyeon/TIL/blob/master/4%EC%9B%94/0412/Django_framework.md)
+- [Design Pattern](https://github.com/YooJuHyeon/TIL/blob/master/4%EC%9B%94/0413/Django_design_pattern.md)
+- [Template](https://github.com/YooJuHyeon/TIL/blob/master/4%EC%9B%94/0418/Django_template.md)
